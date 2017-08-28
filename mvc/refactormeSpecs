@@ -1,0 +1,21 @@
+3 objects with 3 methods:
+model object:
+	model: function:
+		args: 0
+		returns: undefined
+		behaviour: has 2 variables. 1 which pulls the value of the input, another which pulls the div.
+		declares both to global scope.
+		Purpose: to take in the value of the input and get the html div.
+view object:
+	view: function:
+		args: 0
+		return: undefined
+		behaviour: takes the global div variable and pushes the input into the html view.
+		purpose: so the user sees the actual input in the div.
+controller object:
+	controller: function;
+		args: 0
+		return: undefined
+		behaviour: takes in the model and view function, and executes respectively.
+		purpose: to act as the function controller between the model and the view
+

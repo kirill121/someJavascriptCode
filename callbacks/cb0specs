@@ -1,0 +1,20 @@
+2 functions.
+	devSide: 
+		args: 2
+
+		return: undefined
+
+		behaviour: acts as the callback with an if or else statement, by using the arguments passed in and checking whether they are true or false.
+
+
+		purpose: to be used as a callback for verifying moduleSide.
+
+	moduleSide:
+		args: 3
+
+		return: the callback function(devSide)
+
+		behaviour: has 2 variables, an if else statement which solves the arguments passed in, then returns a callback.
+
+		purpose: to do the actual code and solving.	
+		
